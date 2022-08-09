@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/fundo.jpg');
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.conteudo, .cx_button{
+    display: flex;
+    justify-content: center;
+}
+
+#cx_formulario{
+    width: 500px;
+    min-height: 100px;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#conteudo_form{
+    padding: 0 50px;
+}
+
+#titulo{
+    font-size: 30px;
+    padding: 50px 0 35px 0;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    border-radius: 13px;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid gray
+}
+
+.cx_input{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+    cursor: pointer;
+    background: #f7b31c;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 15px 0 20px 0;
+    font-weight: bold;
+}
+
+.cx_input i{
+    position: absolute;
+    margin: 13px 6px 0 13px;
+    font-size: 14px;
+    color: #f7b31c;
+}
