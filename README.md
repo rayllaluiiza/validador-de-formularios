@@ -10,7 +10,6 @@
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
-  <li>JQuery</li>
   <li>Font Awesome</li>
   <li>Fontes do Google</li>
 </ul>

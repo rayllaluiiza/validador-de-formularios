@@ -16,29 +16,29 @@
         <div id="cx_formulario">
             <div id="conteudo_form">
                 <div id="titulo">Cadastrar</div>
-                <form action="#" method="post">
+                <form method="post" class="validation">
                     <div class="cx_input">
                         <label for="nome">Nome</label>
                         <i class="fas fa-user"></i>
-                        <input type="text" id="nome" name="nome" placeholder="Nome">
+                        <input type="text" id="nome" name="nome" placeholder="Nome" data-rules="required|min:3">
                     </div>
 
                     <div class="cx_input">
                         <label for="telefone">Telefone</label>
                         <i class="fas fa-phone"></i>
-                        <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+                        <input type="text" id="telefone" name="telefone" placeholder="Telefone" data-rules="required">
                     </div>
 
                     <div class="cx_input">
                         <label for="email">E-mail</label>
                         <i class="fas fa-envelope"></i>
-                        <input type="text" id="email" name="email" placeholder="E-mail">
+                        <input type="text" id="email" name="email" placeholder="E-mail" data-rules="email">
                     </div>
 
                     <div class="cx_input">
                         <label for="senha">Senha</label>
                         <i class="fas fa-lock"></i>
-                        <input type="password" id="senha" name="senha" placeholder="Senha">
+                        <input type="password" id="senha" name="senha" placeholder="Senha" data-rules="min:5">
                     </div>
 
                     <div class="cx_button">
@@ -48,5 +48,7 @@
             </form>
         </div>
     </div>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

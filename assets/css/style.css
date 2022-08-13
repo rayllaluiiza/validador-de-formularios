@@ -67,3 +67,8 @@ button{
     font-size: 14px;
     color: #f7b31c;
 }
+
+.error{
+    color: #f54141;
+    font-size: 12px;
+}
